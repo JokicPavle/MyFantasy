@@ -1,11 +1,11 @@
 import { StyleSheet, View, Text, StatusBar } from 'react-native';
 
 
-export default function HomeScreen() {
+export default function NewsScreen() {
   return (
    <View style={styles.container}>
     <Text style={styles.title}>
-      Home Page
+      News Page
     </Text>
    </View>
   );

@@ -1,11 +1,11 @@
 import { StyleSheet, View, Text, StatusBar } from 'react-native';
 
 
-export default function HomeScreen() {
+export default function LineupsScreen() {
   return (
    <View style={styles.container}>
     <Text style={styles.title}>
-      Home Page
+      Lineups Page
     </Text>
    </View>
   );
