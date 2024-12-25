@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text, StatusBar, Platform } from 'react-native';
+import { StyleSheet, View, Text, StatusBar } from 'react-native';
 
 
 
@@ -15,8 +15,7 @@ export default function StatsScreen() {
 const styles = StyleSheet.create({
   container: {
      flex: 1,
-    paddingTop: Platform.OS == 'android' ? StatusBar.currentHeight : 60,
-
+     paddingTop: StatusBar.currentHeight
    },
    title: {
      textAlign: "center",
